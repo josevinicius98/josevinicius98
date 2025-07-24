@@ -1,15 +1,15 @@
-# 🚀 Meu Portfólio GitHub
+# Jóse Vinicius Vasconcelos Ferreira
 
 > Bem-vindo ao meu portfólio! Aqui você encontra meus principais projetos de Power BI, desenvolvimento web e automações que desenvolvi.
 
 ---
 
-## 🛠️ Tecnologias & Ferramentas
+## 🛠️ Tecnologias & Ferramentas      (colocar imagens aqui ao invés de texto)
 
-* **Power BI**
+* **Power BI / SQL / Excel**
 * **HTML / CSS / JavaScript**
-* **Node.js / Express** *(exemplo de site)*
-* **Python** *(automação)*
+* **Node.js / Express** 
+* **Python** *
 * **Git & GitHub**
 
 ---
@@ -24,7 +24,7 @@
 
 ## 👤 Sobre Mim
 
-Exemplo: "Sou Analista de Sistemas e desenvolvedor de soluções em Power BI, websites e automações que otimizam processos de negócio."
+Sou Analista de Desenvolvimento de Sistemas e desenvolvedor de soluções em Power BI, websites e automações que otimizam processos de negócio.
 
 ---
 
@@ -74,6 +74,13 @@ Exemplo: "Sou Analista de Sistemas e desenvolvedor de soluções em Power BI, we
 * **Repositório:** [Ver Código](URL_DO_REPO)
 
 ---
+📫 Contato
+
+Email: seu.email@exemplo.com
+
+LinkedIn: Seu Perfil
+
+GitHub: @seu-usuario
 
 *Obrigado pela visita!*
 *Fique à vontade para explorar e deixar feedback.*
