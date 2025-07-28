@@ -47,35 +47,31 @@ Sou Analista de Desenvolvimento de Sistemas e desenvolvedor de soluções em Pow
 * **Principais Recursos:** Modelagem de dados, visualizações interativas, medidas em DAX.
 * **Link:** [Acessar Dashboard](URL_DO_DASHBOARD)
 
-### 2. Projeto Power BI: \[Título do Projeto 2]
+### 2. Projeto Power BI: **Estilo Vibe – Análise de Vendas no Varejo de Moda**
 
-(https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.png?raw=true)
-https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.1.png?raw=true
+![Imagem do Projeto - Página Principal](https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.png?raw=true)
+![Imagem do Projeto - Página de Detalhes](https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.1.png?raw=true)
 
-🛍️ Objetivo do Projeto:
+🛍️ **Objetivo do Projeto:**  
 Desenvolver um dashboard interativo e visualmente atrativo para monitorar o desempenho de vendas de uma loja fictícia de moda, com foco em faturamento, canais de venda e comportamento do cliente.
 
-📁 Fonte de Dados:
-Base fictícia armazenada em banco de dados MySQL Workbench, com mais de 500 registros de vendas no período de 12 meses, contendo informações como data da venda, categoria do produto, canal de venda, cliente, valor e quantidade.
+📁 **Fonte de Dados:**  
+Base fictícia armazenada em banco de dados **MySQL Workbench**, com mais de 500 registros de vendas no período de 12 meses, contendo informações como data da venda, categoria do produto, canal de venda, cliente, valor e quantidade.
 
-🔍 Indicadores-chave (KPIs):
+🔍 **Indicadores-chave (KPIs):**
 
-Total de Vendas
+- Total de Vendas  
+- Ticket Médio  
+- Clientes Únicos  
+- Quantidade Total de Itens Vendidos
 
-Ticket Médio
+📈 **Principais Recursos:**
 
-Clientes Únicos
+- Segmentações por mês, canal, produto e cliente  
+- Análises por categoria, produto, canal e tempo
 
-Quantidade Total de Itens Vendidos
-
-📈 Principais Recursos:
-
-Segmentações por mês, canal, produto e cliente
-
-Análises por categoria, produto, canal e tempo
-
-🔗 Link para o Dashboard:
-👉 Acessar no Power BI Online
+🔗 **Link para o Dashboard:**  
+👉 [Acessar no Power BI Online](https://app.powerbi.com/Redirect?action=OpenApp&appId=912fbe1f-ac83-4e96-a8c0-e314e6b47a79&ctid=e298359b-9b54-45c0-9bb7-690913b34cf8&experience=power-bi)
 
 ### 3. Website: \[Nome do Site]
 
