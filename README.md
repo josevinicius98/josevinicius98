@@ -73,7 +73,7 @@ Base fictícia armazenada em banco de dados **MySQL Workbench**, com mais de 500
 - Análises por categoria, produto, canal e tempo
 
 🔗 **Link para o Dashboard:**  
-👉 [Acessar no Power BI Online](https://app.powerbi.com/Redirect?action=OpenApp&appId=912fbe1f-ac83-4e96-a8c0-e314e6b47a79&ctid=e298359b-9b54-45c0-9bb7-690913b34cf8&experience=power-bi)
+👉 [Acessar no Power BI Online](https://app.powerbi.com/view?r=eyJrIjoiMDA2YmRiZmMtOGY4Mi00NmQxLTgyNDAtMDI1YzYzYTkyODI1IiwidCI6ImUyOTgzNTliLTliNTQtNDVjMC05YmI3LTY5MDkxM2IzNGNmOCJ9)
 
 ### 3. Website: \[Nome do Site]
 
