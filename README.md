@@ -19,12 +19,6 @@
   <img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white" />
 </p>
 
-* **Power BI / SQL / Excel**
-* **HTML / CSS / JavaScript**
-* **Node.js / Express** 
-* **Python** *
-* **Git & GitHub**
-
 ---
 
 ## 📂 Estrutura do Repositório
@@ -55,11 +49,34 @@ Sou Analista de Desenvolvimento de Sistemas e desenvolvedor de soluções em Pow
 
 ### 2. Projeto Power BI: \[Título do Projeto 2]
 
-![Imagem do Projeto 2](URL_DA_IMAGEM_2)
+<!-- Substitua pela URL real da imagem -->
 
-* **Descrição:** Ex.: relatório de vendas e estoque para transportadora, com indicadores de desempenho e histórico.
-* **Principais Recursos:** Conexão a múltiplas fontes, filtros avançados, parâmetros.
-* **Link:** [Acessar Dashboard](URL_DO_DASHBOARD)
+🛍️ Objetivo do Projeto:
+Desenvolver um dashboard interativo e visualmente atrativo para monitorar o desempenho de vendas de uma loja fictícia de moda, com foco em faturamento, canais de venda e comportamento do cliente.
+
+📁 Fonte de Dados:
+Base fictícia em .csv, com mais de 500 registros de vendas no período de 12 meses, contendo informações como data da venda, categoria do produto, canal de venda, cliente, valor e quantidade.
+
+🔍 Indicadores-chave (KPIs):
+
+Total de Vendas
+
+Ticket Médio
+
+Clientes Únicos
+
+Quantidade Total de Itens Vendidos
+
+📈 Principais Recursos:
+
+Segmentações por mês, canal, produto e cliente
+
+Gráficos de barra, linha, rosca e dispersão
+
+Análises por categoria, produto, canal e tempo
+
+🔗 Link para o Dashboard (caso aplicável):
+Acessar Projeto no Power BI
 
 ### 3. Website: \[Nome do Site]
 
