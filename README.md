@@ -50,8 +50,8 @@ Sou Analista de Desenvolvimento de Sistemas e desenvolvedor de soluções em Pow
 ### 2. Projeto Power BI: **Estilo Vibe – Análise de Vendas no Varejo de Moda**
 
 <p float="left">
-  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.png?raw=true" width="300"/>
-  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.1.png?raw=true" width="300"/>
+  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.png?raw=true" width="400"/>
+  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.1.png?raw=true" width="400"/>
 </p>)
 
 🛍️ **Objetivo do Projeto:**  
