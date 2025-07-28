@@ -49,13 +49,14 @@ Sou Analista de Desenvolvimento de Sistemas e desenvolvedor de soluções em Pow
 
 ### 2. Projeto Power BI: \[Título do Projeto 2]
 
-<!-- Substitua pela URL real da imagem -->
+(https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.png?raw=true)
+https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.1.png?raw=true
 
 🛍️ Objetivo do Projeto:
 Desenvolver um dashboard interativo e visualmente atrativo para monitorar o desempenho de vendas de uma loja fictícia de moda, com foco em faturamento, canais de venda e comportamento do cliente.
 
 📁 Fonte de Dados:
-Base fictícia em .csv, com mais de 500 registros de vendas no período de 12 meses, contendo informações como data da venda, categoria do produto, canal de venda, cliente, valor e quantidade.
+Base fictícia armazenada em banco de dados MySQL Workbench, com mais de 500 registros de vendas no período de 12 meses, contendo informações como data da venda, categoria do produto, canal de venda, cliente, valor e quantidade.
 
 🔍 Indicadores-chave (KPIs):
 
@@ -71,12 +72,10 @@ Quantidade Total de Itens Vendidos
 
 Segmentações por mês, canal, produto e cliente
 
-Gráficos de barra, linha, rosca e dispersão
-
 Análises por categoria, produto, canal e tempo
 
-🔗 Link para o Dashboard (caso aplicável):
-Acessar Projeto no Power BI
+🔗 Link para o Dashboard:
+👉 Acessar no Power BI Online
 
 ### 3. Website: \[Nome do Site]
 
