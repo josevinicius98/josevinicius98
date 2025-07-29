@@ -31,7 +31,7 @@
 
 ## 👤 Sobre Mim
 
-Sou Analista de Desenvolvimento de Sistemas e desenvolvedor de soluções em Power BI, websites e automações que otimizam processos de negócio.
+Sou Analista de Desenvolvimento de Sistemas, com foco em criar soluções eficientes por meio de Power BI, desenvolvimento web e automação de processos. Atualmente, curso Sistemas de Informação na Universidade do Estado de Minas Gerais (6º período) e possuo formação complementar em Excel Avançado, MySQL para Análise de Dados e Power BI. Estou sempre em constante aprendizado, buscando aprimorar minhas habilidades e transformar dados em decisões estratégicas, além de facilitar rotinas operacionais por meio da tecnologia.
 
 ---
 
@@ -42,8 +42,8 @@ Sou Analista de Desenvolvimento de Sistemas e desenvolvedor de soluções em Pow
 ### 🚚 Projeto Power BI: **TransLog – Análise Operacional de Entregas**
 
 <p float="left">
-  <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%202att.png?raw=true" width="400"/>
-  <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%202.1att.png?raw=true" width="400"/>
+  <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%201.png?raw=true" width="400"/>
+  <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%201.1.png?raw=true" width="400"/>
 </p>
 
 📦 **Objetivo do Projeto:**  
@@ -79,8 +79,8 @@ Base fictícia armazenada em banco de dados **MySQL Workbench**, com mais de 2.0
 ### 📊 Projeto Power BI: **Estilo Vibe – Análise de Vendas no Varejo de Moda**
 
 <p float="left">
-  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.png?raw=true" width="400"/>
-  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.1.png?raw=true" width="400"/>
+  <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%202att.png?raw=true" width="400"/>
+  <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%202.1att.png?raw=true" width="400"/>
 </p>
 
 🛍️ **Objetivo do Projeto:**  
@@ -180,7 +180,11 @@ O robô identifica motoristas por dia e frota, classificando-os em:
 - Classificação automática de status por lógica condicional  
 - Interface gráfica com **Tkinter** para seleção de arquivos  
 - Geração de relatório final em Excel com nomeação por data  
-- Log detalhado (`automacao.log`) com erros registrados  
+- Log detalhado (`automacao.log`) com erros registrados
+
+📸 **Interface e Resultados:**
+- Interface do Robô  
+- Relatório Final Gerado (.xlsx)
 
 🧩 **Tecnologias Utilizadas:**
 
@@ -192,23 +196,11 @@ O robô identifica motoristas por dia e frota, classificando-os em:
   <img src="https://img.shields.io/badge/-tkinter-FFCD00?style=flat" />
 </p>
 
-📸 **Interface e Resultados:**
-- Interface do Robô  
-- Relatório Final Gerado (.xlsx)
-
-🗂️ **Organização do Projeto:**
-Robo3_checklist/
-├── script.py              # Script principal
-├── apelidos.json          # Mapeamento de apelidos de motoristas
-├── automacao.log          # Log de execução
-└── relatorios/            # Relatórios finais gerados
-
-
 ### 🧾 5. Projeto Python: **Robô – Automação de Download e Envio de Faturas (Portal RB153)**
 
 <p float="left">
-  <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%205.png?raw=true" width="400"/>
   <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%205.1.png?raw=true" width="400"/>
+  <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%205.png?raw=true" width="400"/>
 </p>
 
 📦 **Objetivo do Projeto:**  
@@ -245,13 +237,6 @@ Automatizar o processo de **download de faturas em PDF** do sistema **Portal RB1
   <img src="https://img.shields.io/badge/-dotenv-000000?style=flat" />
   <img src="https://img.shields.io/badge/-ChromeDriver-4285F4?style=flat&logo=googlechrome&logoColor=white" />
 </p>
-
-📂 **Organização da Estrutura do Projeto:**
-Robo2_portal_RB153/
-├── script.py           # Script principal com Selenium e Tkinter
-├── .env                # Credenciais e configuração do grupo
-├── logs/               # Logs de execução
-├── faturas/            # PDFs baixados organizados por ID
 
 ---
 ## 📫 Contato
