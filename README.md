@@ -70,6 +70,7 @@ Base fictícia armazenada em banco de dados **MySQL Workbench**, com mais de 2.0
 🔗 **Link para o Dashboard:**  
 👉 [Acessar no Power BI Online](https://app.powerbi.com/view?r=eyJrIjoiYjNjODMyNGYtNWQ5YS00YTUxLTgyOTYtMWZkNTQ4MjIwZDlkIiwidCI6ImUyOTgzNTliLTliNTQtNDVjMC05YmI3LTY5MDkxM2IzNGNmOCJ9)
 
+💻 **Tecnologias Utilizadas:**
 <p align="left">
   <img src="https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=Power%20BI&logoColor=black" />
   <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
@@ -80,7 +81,7 @@ Base fictícia armazenada em banco de dados **MySQL Workbench**, com mais de 2.0
 <p float="left">
   <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.png?raw=true" width="400"/>
   <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.1.png?raw=true" width="400"/>
-</p>)
+</p>
 
 🛍️ **Objetivo do Projeto:**  
 Desenvolver um dashboard interativo e visualmente atrativo para monitorar o desempenho de vendas de uma loja fictícia de moda, com foco em faturamento, canais de venda e comportamento do cliente.
@@ -103,6 +104,7 @@ Base fictícia armazenada em banco de dados **MySQL Workbench**, com mais de 500
 🔗 **Link para o Dashboard:**  
 👉 [Acessar no Power BI Online](https://app.powerbi.com/view?r=eyJrIjoiMDA2YmRiZmMtOGY4Mi00NmQxLTgyNDAtMDI1YzYzYTkyODI1IiwidCI6ImUyOTgzNTliLTliNTQtNDVjMC05YmI3LTY5MDkxM2IzNGNmOCJ9)
 
+💻 **Tecnologias Utilizadas:**
 <p align="left">
   <img src="https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=Power%20BI&logoColor=black" />
   <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
