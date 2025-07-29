@@ -1,6 +1,6 @@
-# Jóse Vinicius Vasconcelos Ferreira
+# 🚀 José Vinicius Vasconcelos Ferreira
 
-> Bem-vindo ao meu portfólio! Aqui você encontra meus principais projetos de Power BI, desenvolvimento web e automações que desenvolvi.
+> Bem-vindo ao meu portfólio! Aqui você encontra meus principais projetos de Power BI, desenvolvimento web e automações voltadas à otimização de processos.
 
 ---
 
@@ -42,8 +42,8 @@ Sou Analista de Desenvolvimento de Sistemas e desenvolvedor de soluções em Pow
 ### 🚚 Projeto Power BI: **TransLog – Análise Operacional de Entregas**
 
 <p float="left">
-  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%201.png?raw=true" width="400"/>
-  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%201.1.png?raw=true" width="400"/>
+  <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%202att.png?raw=true" width="400"/>
+  <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%202.1att.png?raw=true" width="400"/>
 </p>
 
 📦 **Objetivo do Projeto:**  
@@ -76,7 +76,7 @@ Base fictícia armazenada em banco de dados **MySQL Workbench**, com mais de 2.0
   <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
 </p>
 
-### 2. Projeto Power BI: **Estilo Vibe – Análise de Vendas no Varejo de Moda**
+### 📊 Projeto Power BI: **Estilo Vibe – Análise de Vendas no Varejo de Moda**
 
 <p float="left">
   <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%202.png?raw=true" width="400"/>
@@ -110,7 +110,7 @@ Base fictícia armazenada em banco de dados **MySQL Workbench**, com mais de 500
   <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
 </p>
 
-### 🌾 Projeto Web: **Site Institucional – ISM Agropecuária**
+### 🌾 3. Projeto Web: **Site Institucional – ISM Agropecuária**
 
 <p float="left">
   <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%203.png?raw=true" width="300"/>
@@ -147,29 +147,119 @@ A plataforma, totalmente **responsiva**, foi projetada para apresentar a empresa
 </p>
 
 
-### 4. Automação: \[Automação 1]
+### 🤖  4. Projeto Python: **Robô – Automação de Rastreamento e Checklist de Frota**
 
-![Imagem da Automação 1](URL_DA_IMAGEM_4)
+<p float="left">
+  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%204.png?raw=true" width="400"/>
+  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%204.1.png?raw=true" width="400"/>
+</p>
 
-* **Descrição:** Script em Python para download e processamento de notas fiscais via Selenium e IMAP, alertas e logs.
-* **Principais Pacotes:** selenium, imaplib, pandas, logging.
-* **Repositório:** [Ver Código](URL_DO_REPO)
+📦 **Objetivo do Projeto:**  
+Automatizar a análise cruzada entre os relatórios de rastreamento veicular (plataformas Webtrac e SEG) e o checklist de motoristas da frota, identificando a movimentação de cada veículo e classificando o status de preenchimento do checklist.
 
-### 5. Automação: \[Automação 2]
+📁 **Fontes de Dados:**
 
-![Imagem da Automação 2](URL_DA_IMAGEM_5)
+- Arquivos Excel exportados das plataformas **Webtrac** e **SEG**  
+- Planilha de checklist diário da frota  
+- Dados com estrutura variável e cabeçalhos inconsistentes  
 
-* **Descrição:** Ferramenta em Python para análise de checklist veicular, cruzamento de dados de rastreamento e geração de relatórios automatizados.
-* **Principais Pacotes:** pandas, tkinter, fuzzywuzzy, logging.
-* **Repositório:** [Ver Código](URL_DO_REPO)
+🔍 **Indicadores e Classificações:**  
+O robô identifica motoristas por dia e frota, classificando-os em:
+
+- ✅ Rodou com checklist  
+- ⚠️ Rodou sem checklist  
+- 📋 Fez checklist, mas não rodou  
+- ❌ Não rodou nem fez checklist  
+
+🛠️ **Principais Funcionalidades:**
+
+- Normalização dinâmica de colunas com detecção por palavras-chave  
+- Fuzzy matching de nomes com persistência em `apelidos.json` 
+- Explosão de múltiplos motoristas em um único registro  
+- Agrupamento e soma de distâncias por Motorista × Data × Frota  
+- Classificação automática de status por lógica condicional  
+- Interface gráfica com **Tkinter** para seleção de arquivos  
+- Geração de relatório final em Excel com nomeação por data  
+- Log detalhado (`automacao.log`) com erros registrados  
+
+🧩 **Tecnologias Utilizadas:**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-pandas-150458?style=flat&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/-openpyxl-1F6FEB?style=flat" />
+  <img src="https://img.shields.io/badge/-fuzzywuzzy-DC5B5B?style=flat" />
+  <img src="https://img.shields.io/badge/-tkinter-FFCD00?style=flat" />
+</p>
+
+📸 **Interface e Resultados:**
+- Interface do Robô  
+- Relatório Final Gerado (.xlsx)
+
+🗂️ **Organização do Projeto:**
+Robo3_checklist/
+├── script.py              # Script principal
+├── apelidos.json          # Mapeamento de apelidos de motoristas
+├── automacao.log          # Log de execução
+└── relatorios/            # Relatórios finais gerados
+
+
+### 🧾 5. Projeto Python: **Robô – Automação de Download e Envio de Faturas (Portal RB153)**
+
+<p float="left">
+  <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%205.png?raw=true" width="400"/>
+  <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%205.1.png?raw=true" width="400"/>
+</p>
+
+📦 **Objetivo do Projeto:**  
+Automatizar o processo de **download de faturas em PDF** do sistema **Portal RB153**, verificar se há novas faturas disponíveis e, em caso positivo, **enviar os arquivos diretamente para um grupo no WhatsApp Web**, com alertas visuais via popup no sistema.
+
+🔁 **Fluxo Principal da Automação:**
+
+1. Acessa o portal e realiza login automaticamente  
+2. Filtra e baixa somente as faturas com status “ABERTO” que ainda não existem localmente  
+3. Caso haja faturas novas, abre o WhatsApp Web e envia os PDFs para o grupo definido  
+4. Exibe um **toast de status** (popup discreto) informando se houve novidades ou não  
+
+🛠️ **Principais Funcionalidades:**
+
+- Navegação automatizada via Selenium  
+- Download condicional e verificação por nome de arquivo  
+- Envio de documentos via WhatsApp Web com interface já logada  
+- Notificações toast personalizadas com **Tkinter**  
+- Log detalhado com timestamp e nível de evento (`INFO`, `ERROR`)  
+- Leitura de variáveis de ambiente com `.env` para segurança de credenciais
+
+📁 **Fontes de Dados:**
+
+- Sistema **Portal Delta Posto RB153** (HTML + PDF)  
+- Diretórios locais de armazenamento de faturas  
+- Variáveis sensíveis armazenadas em `.env` (usuário, senha e nome do grupo WhatsApp)
+
+💻 **Tecnologias Utilizadas:**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Selenium-43B02A?style=flat&logo=selenium&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Tkinter-FFCD00?style=flat" />
+  <img src="https://img.shields.io/badge/-dotenv-000000?style=flat" />
+  <img src="https://img.shields.io/badge/-ChromeDriver-4285F4?style=flat&logo=googlechrome&logoColor=white" />
+</p>
+
+📂 **Organização da Estrutura do Projeto:**
+Robo2_portal_RB153/
+├── script.py           # Script principal com Selenium e Tkinter
+├── .env                # Credenciais e configuração do grupo
+├── logs/               # Logs de execução
+├── faturas/            # PDFs baixados organizados por ID
 
 ---
 ## 📫 Contato
 
 - 📧 Email: [viniciusferreira652@gmail.com](mailto:viniciusferreira652@gmail.com)  
-- 💼 LinkedIn: [linkedin.com/in/seu-usuario](https://linkedin.com/in/seu-usuario)  
-- 🐙 GitHub: [github.com/seu-usuario](https://github.com/seu-usuario)
+- 💼 LinkedIn: [linkedin.com/in/josevasconcelos98](https://www.linkedin.com/in/josevasconcelos98) 
+- 🐙 GitHub: [github.com/josevinicius98](https://github.com/josevinicius98)
 
 
-*Obrigado pela visita!*
-*Fique à vontade para explorar e deixar feedback.*
+⭐ Obrigado por visitar meu portfólio!  
+📬 Sinta-se à vontade para entrar em contato ou deixar seu feedback.
