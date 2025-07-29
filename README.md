@@ -39,13 +39,37 @@ Sou Analista de Desenvolvimento de Sistemas e desenvolvedor de soluções em Pow
 
 > A seguir, cinco projetos selecionados:
 
-### 1. Projeto Power BI: \[Título do Projeto 1]
+### 🚚 Projeto Power BI: **TransLog – Análise Operacional de Entregas**
 
-![Imagem do Projeto 1](URL_DA_IMAGEM_1)
+<p float="left">
+  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%201.png?raw=true" width="600"/>
+  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%201.1.png?raw=true" width="600"/>
+</p>
 
-* **Descrição:** Breve descrição do objetivo e das funcionalidades (ex.: dashboard de análise financeira com DRE, KPIs personalizados).
-* **Principais Recursos:** Modelagem de dados, visualizações interativas, medidas em DAX.
-* **Link:** [Acessar Dashboard](URL_DO_DASHBOARD)
+📦 **Objetivo do Projeto:**  
+Desenvolver um dashboard interativo para acompanhar a performance logística de uma transportadora fictícia, com foco em entregas realizadas, quilometragem rodada, custos operacionais e atrasos por região e motorista.
+
+📁 **Fonte de Dados:**  
+Base fictícia armazenada em banco de dados **MySQL Workbench**, com mais de 2.000 registros simulados, contendo data, região, tipo de veículo, motorista, distância percorrida, custo total e dias de atraso.
+
+🔍 **Indicadores-chave (KPIs):**
+
+- Total de Entregas  
+- Total de KM Rodado  
+- Custo Total da Operação  
+- Média de Atraso
+
+📈 **Principais Recursos:**
+
+- Segmentações por região, tipo de veículo e período (ano e mês)  
+- Gráficos de linha, colunas, pizza e tabelas detalhadas  
+- Ranking de motoristas com base em KM e custo  
+- Análise mensal do desempenho logístico  
+- Paleta de cores personalizada (verde petróleo)
+
+🔗 **Link para o Dashboard:**  
+👉 [Acessar no Power BI Online](https://app.powerbi.com/view?r=eyJrIjoiYjNjODMyNGYtNWQ5YS00YTUxLTgyOTYtMWZkNTQ4MjIwZDlkIiwidCI6ImUyOTgzNTliLTliNTQtNDVjMC05YmI3LTY5MDkxM2IzNGNmOCJ9)
+
 
 ### 2. Projeto Power BI: **Estilo Vibe – Análise de Vendas no Varejo de Moda**
 
