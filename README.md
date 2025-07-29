@@ -42,8 +42,8 @@ Sou Analista de Desenvolvimento de Sistemas e desenvolvedor de soluções em Pow
 ### 🚚 Projeto Power BI: **TransLog – Análise Operacional de Entregas**
 
 <p float="left">
-  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%201.png?raw=true" width="600"/>
-  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%201.1.png?raw=true" width="600"/>
+  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%201.png?raw=true" width="400"/>
+  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%201.1.png?raw=true" width="400"/>
 </p>
 
 📦 **Objetivo do Projeto:**  
@@ -70,6 +70,10 @@ Base fictícia armazenada em banco de dados **MySQL Workbench**, com mais de 2.0
 🔗 **Link para o Dashboard:**  
 👉 [Acessar no Power BI Online](https://app.powerbi.com/view?r=eyJrIjoiYjNjODMyNGYtNWQ5YS00YTUxLTgyOTYtMWZkNTQ4MjIwZDlkIiwidCI6ImUyOTgzNTliLTliNTQtNDVjMC05YmI3LTY5MDkxM2IzNGNmOCJ9)
 
+<p align="left">
+  <img src="https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=Power%20BI&logoColor=black" />
+  <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
+</p>
 
 ### 2. Projeto Power BI: **Estilo Vibe – Análise de Vendas no Varejo de Moda**
 
@@ -99,14 +103,44 @@ Base fictícia armazenada em banco de dados **MySQL Workbench**, com mais de 500
 🔗 **Link para o Dashboard:**  
 👉 [Acessar no Power BI Online](https://app.powerbi.com/view?r=eyJrIjoiMDA2YmRiZmMtOGY4Mi00NmQxLTgyNDAtMDI1YzYzYTkyODI1IiwidCI6ImUyOTgzNTliLTliNTQtNDVjMC05YmI3LTY5MDkxM2IzNGNmOCJ9)
 
-### 3. Website: \[Nome do Site]
+<p align="left">
+  <img src="https://img.shields.io/badge/-Power%20BI-F2C811?style=flat&logo=Power%20BI&logoColor=black" />
+  <img src="https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=MySQL&logoColor=white" />
+</p>
 
-![Imagem do Website](URL_DA_IMAGEM_3)
+### 🌾 Projeto Web: **Site Institucional – ISM Agropecuária**
 
-* **Descrição:** Site institucional desenvolvido em Node.js e MySQL, área de login, sistema de compra de apostilas e painel de progresso.
-* **Principais Tecnologias:** Node.js, Express, MySQL, JavaScript, HTML/CSS.
-* **Repositório:** [Ver Código](URL_DO_REPO)
-* **Demo:** [Acessar Site](URL_DO_DEMO)
+<p float="left">
+  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%203.png?raw=true" width="300"/>
+  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%203.1.png?raw=true" width="300"/>
+  <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%203.2.png?raw=true" width="300"/>
+</p>
+
+🌐 **Link do Site:**  
+👉 [Acessar ismagro.com.br](https://ismagro.com.br/)
+
+🛠️ **Desenvolvimento:**  
+Desenvolvimento completo do site institucional da **ISM Agropecuária**, composto por seis seções principais: Início, Sobre Nós, Galeria, Atividades, Contato e Portal do Colaborador.  
+A plataforma, totalmente **responsiva**, foi projetada para apresentar a empresa e facilitar o contato com visitantes.
+
+📨 O formulário de contato utiliza **integração com o Formspree**, enviando mensagens diretamente para o e-mail institucional.  
+🔒 Na área restrita para colaboradores, estão disponíveis:
+
+- Canal de Ouvidoria  
+- Suporte Técnico  
+- Acesso direto aos Dashboards Corporativos
+
+💻 **Tecnologias Utilizadas:**
+
+<p align="left">
+  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/-MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
+</p>
+
 
 ### 4. Automação: \[Automação 1]
 
