@@ -64,7 +64,7 @@ Transformo dados em decisões e processos em rotinas automatizadas — com foco 
 ## 👤 Sobre Mim
 
 Sou **Analista de Desenvolvimento de Sistemas**, com foco em **Power BI, automação de processos e desenvolvimento web**.  
-Cursando **Sistemas de Informação (UEMG – 6º período)**, atuo criando soluções que **reduzem retrabalho**, aumentam **visibilidade operacional** e geram **indicadores confiáveis** para tomada de decisão.
+Cursando **Sistemas de Informação (UEMG – 7º período)**, atuo criando soluções que **reduzem retrabalho**, aumentam **visibilidade operacional** e geram **indicadores confiáveis** para tomada de decisão.
 
 ---
 
