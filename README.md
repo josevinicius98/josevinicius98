@@ -29,21 +29,18 @@ Transformo dados em decisões e processos em rotinas automatizadas — com foco 
 ## 🧰 Stack (Tecnologias & Ferramentas)
 
 <p align="left">
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
+  <img src="https://raw.githubusercontent.com/FabricTools/fabric-icons/main/node_modules/%40fabric-msft/svg-icons/dist/svg/fabric_24_color.svg" height="20" alt="Microsoft Fabric" />
+  <img src="https://raw.githubusercontent.com/FabricTools/fabric-icons/main/node_modules/%40fabric-msft/svg-icons/dist/svg/lakehouse_24_item.svg" height="20" alt="Lakehouse" />
 
-<!-- Microsoft Fabric / Lakehouse (logos oficiais em SVG) -->
-<img src="https://raw.githubusercontent.com/FabricTools/fabric-icons/main/node_modules/%40fabric-msft/svg-icons/dist/svg/fabric_24_color.svg" height="20" alt="Microsoft Fabric" />
-<img src="https://raw.githubusercontent.com/FabricTools/fabric-icons/main/node_modules/%40fabric-msft/svg-icons/dist/svg/lakehouse_24_item.svg" height="20" alt="Lakehouse" />
-
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white" />
-<img src="https://img.shields.io/badge/Excel-217346?style=flat&logo=microsoft-excel&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" />
-
+  <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
 </p>
 
 ---
