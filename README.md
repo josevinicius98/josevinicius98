@@ -33,7 +33,6 @@ Transformo dados em decisões e processos em rotinas automatizadas — com foco 
   <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
   <img src="https://raw.githubusercontent.com/FabricTools/fabric-icons/main/node_modules/%40fabric-msft/svg-icons/dist/svg/fabric_24_color.svg" height="20" alt="Microsoft Fabric" />
   <img src="https://raw.githubusercontent.com/FabricTools/fabric-icons/main/node_modules/%40fabric-msft/svg-icons/dist/svg/lakehouse_24_item.svg" height="20" alt="Lakehouse" />
-
   <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" />
@@ -50,12 +49,11 @@ Transformo dados em decisões e processos em rotinas automatizadas — com foco 
 
 - [Sobre Mim](#-sobre-mim)
 - [Projetos](#-projetos)
-  - [1) Arquitetura Enterprise – Microsoft Fabric (Compras PRD)](#1--arquitetura-enterprise--microsoft-fabric-lakehouse--direct-lake--thin-reports--compras-prd)
-  - [2) TransLog – Power BI](#2--translog--análise-operacional-de-entregas-power-bi)
-  - [3) Estilo Vibe – Power BI](#3--estilo-vibe--análise-de-vendas-no-varejo-de-moda-power-bi)
-  - [4) Site Institucional – ISM Agropecuária](#4--site-institucional--ism-agropecuária-web)
-  - [5) Robô – Rastreamento & Checklist](#5--robô--automação-de-rastreamento-e-checklist-de-frota-python)
-  - [6) Robô – Download & Envio de Faturas](#6--robô--download-e-envio-de-faturas-portal-rb153-python)
+  - [1) TransLog – Power BI](#2--translog--análise-operacional-de-entregas-power-bi)
+  - [2) Estilo Vibe – Power BI](#3--estilo-vibe--análise-de-vendas-no-varejo-de-moda-power-bi)
+  - [3) Site Institucional – ISM Agropecuária](#4--site-institucional--ism-agropecuária-web)
+  - [4) Robô – Rastreamento & Checklist](#5--robô--automação-de-rastreamento-e-checklist-de-frota-python)
+  - [5) Robô – Download & Envio de Faturas](#6--robô--download-e-envio-de-faturas-portal-rb153-python)
 - [Contato](#-contato)
 
 ---
@@ -63,7 +61,12 @@ Transformo dados em decisões e processos em rotinas automatizadas — com foco 
 ## 👤 Sobre Mim
 
 Sou **Analista de Desenvolvimento de Sistemas**, com foco em **Power BI, automação de processos e desenvolvimento web**.  
-Cursando **Sistemas de Informação na Universidade do Estado de Minas Gerais (7º período)**, atuo criando soluções que **reduzem retrabalho**, aumentam **visibilidade operacional** e geram **indicadores confiáveis** para tomada de decisão.
+Cursando **Sistemas de Informação na Universidade do Estado de Minas Gerais (7º período)**, atuo criando soluções que **reduzem retrabalho**, aumentam **visibilidade operacional** e geram **indicadores confiáveis** para tomada de decisão — do dado ao consumo.
+
+Também atuo com arquitetura de dados no **Microsoft Fabric**, aplicando o padrão corporativo:  
+**Dataflow Gen2 → Lakehouse (Delta/Gold) → Semantic Model (Direct Lake) → Thin Reports**.
+
+Principais ganhos: **fonte única de verdade**, **reuso de métricas** entre relatórios, **escala** sem duplicar datasets, **separação de responsabilidades** (ETL ≠ modelo ≠ visual) e **operação padronizada** com atualização via pipeline/agendamento.
 
 ---
 
@@ -73,28 +76,7 @@ Cursando **Sistemas de Informação na Universidade do Estado de Minas Gerais (7
 
 ---
 
-### 1) 🏢 Arquitetura Enterprise – Microsoft Fabric (Lakehouse + Direct Lake + Thin Reports) | Compras (PRD)
-
-<p float="left">
-  <!-- Suba sua imagem em: assets/fabric-compras-01.png -->
-  <img src="./assets/fabric-compras-01.png" width="400" alt="Print 01 — Pipeline / Execuções"/>
-  <!-- Suba sua imagem em: assets/fabric-compras-02.png -->
-  <img src="./assets/fabric-compras-02.png" width="400" alt="Print 02 — Thin Report / Semantic Model"/>
-</p>
-
-**Contexto:** ambiente **corporativo PRD** no domínio de **Compras**, com padronização de camadas e operação contínua.  
-
-**Arquitetura:** **Dataflow Gen2 → Lakehouse (Delta / Gold) → Direct Lake → Semantic Model → Thin Reports**.  
-
-**Orquestração:** atualização automatizada por **Pipeline**, com **agendamento** e **histórico de execuções** para rastreabilidade e rerun controlado.  
-
-**Governança:** **fonte única de verdade** no Lakehouse + **métricas oficiais centralizadas no Semantic Model**, com **padrão de nomes** e reuso por múltiplos relatórios.  
-
-**Resultado:** solução **escalável e reutilizável**, reduzindo retrabalho e evitando o cenário “**cada PBIX com seu próprio dataset**”, facilitando expansão para novos painéis e áreas.
-
----
-
-### 2) 🚚 TransLog – Análise Operacional de Entregas (Power BI)
+### 1) 🚚 TransLog – Análise Operacional de Entregas (Power BI)
 
 <p float="left">
   <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%201.png?raw=true" width="400"/>
@@ -104,7 +86,8 @@ Cursando **Sistemas de Informação na Universidade do Estado de Minas Gerais (7
 **Objetivo:** acompanhar performance logística (entregas, km, custos e atrasos) com visão por região e motorista.  
 **Dados:** base fictícia em **MySQL** (+2.000 registros).  
 
-**Arquitetura (quando aplicável):** relatório pode operar no padrão corporativo com **Lakehouse + Semantic Model (Direct Lake)** e consumo via **Thin Report**, centralizando métricas e padronizando atualização via **Pipeline**.
+**Fluxo de trabalho (Microsoft Fabric):** quando aplicado em cenário corporativo, este relatório pode operar no padrão  
+**Dataflow Gen2 → Lakehouse (Delta/Gold) → Semantic Model (Direct Lake) → Thin Report**, centralizando métricas e padronizando a atualização via pipeline.
 
 **KPIs:** Total de Entregas • Total KM • Custo Total • Média de Atraso  
 **Destaques:** filtros por período/veículo/região • ranking de motoristas • análise mensal • layout com paleta personalizada  
@@ -113,7 +96,7 @@ Cursando **Sistemas de Informação na Universidade do Estado de Minas Gerais (7
 
 ---
 
-### 3) 📊 Estilo Vibe – Análise de Vendas no Varejo de Moda (Power BI)
+### 2) 📊 Estilo Vibe – Análise de Vendas no Varejo de Moda (Power BI)
 
 <p float="left">
   <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%202att.png?raw=true" width="400"/>
@@ -123,7 +106,8 @@ Cursando **Sistemas de Informação na Universidade do Estado de Minas Gerais (7
 **Objetivo:** monitorar vendas e comportamento do cliente por canal, categoria e tempo.  
 **Dados:** base fictícia em **MySQL** (12 meses / +500 registros).
 
-**Arquitetura (quando aplicável):** relatório pode operar no padrão corporativo com **Lakehouse + Semantic Model (Direct Lake)** e consumo via **Thin Report**, centralizando métricas e padronizando atualização via **Pipeline**.
+**Fluxo de trabalho (Microsoft Fabric):** quando aplicado em cenário corporativo, este relatório pode operar no padrão  
+**Dataflow Gen2 → Lakehouse (Delta/Gold) → Semantic Model (Direct Lake) → Thin Report**, centralizando métricas e padronizando a atualização via pipeline.
 
 **KPIs:** Total de Vendas • Ticket Médio • Clientes Únicos • Itens Vendidos  
 **Destaques:** segmentações por mês/canal/produto/cliente • análises por categoria e tendência temporal
@@ -132,7 +116,7 @@ Cursando **Sistemas de Informação na Universidade do Estado de Minas Gerais (7
 
 ---
 
-### 4) 🌾 Site Institucional – ISM Agropecuária (Web)
+### 3) 🌾 Site Institucional – ISM Agropecuária (Web)
 
 <p float="left">
   <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%203.png?raw=true" width="300"/>
@@ -149,7 +133,7 @@ Cursando **Sistemas de Informação na Universidade do Estado de Minas Gerais (7
 
 ---
 
-### 5) 🤖 Robô – Automação de Rastreamento e Checklist de Frota (Python)
+### 4) 🤖 Robô – Automação de Rastreamento e Checklist de Frota (Python)
 
 <p float="left">
   <img src="https://github.com/josevinicius98/arquivos_portif-lio/blob/main/projeto%204.png?raw=true" width="400"/>
@@ -165,7 +149,7 @@ Cursando **Sistemas de Informação na Universidade do Estado de Minas Gerais (7
 
 ---
 
-### 6) 🧾 Robô – Download e Envio de Faturas (Portal RB153) (Python)
+### 5) 🧾 Robô – Download e Envio de Faturas (Portal RB153) (Python)
 
 <p float="left">
   <img src="https://github.com/josevinicius98/Arquivos_Portifolio/blob/main/projeto%205.1.png?raw=true" width="400"/>
